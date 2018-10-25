@@ -1,0 +1,149 @@
+{
+	"login":"Ecosystème cosystème Mail Entrée",
+	"login_text": "C'est la passerelle vers la création de liens efficaces avec les personnes et les organisations.",
+	"welcome":"Bienvenue!",
+	"welcome_text":"Complétez votre profil pour envoyer et recevoir des mails d'écosystème!",
+	"search":"Recherche",
+	"recipients":"Les destinataires",
+	"from":"Expéditeur",
+	"replies":"Réponses",
+	"your_rep":"Écris ta réponse",
+	"reply_warn":"Les autres utilisateurs peuvent voir votre réponse.",
+	"Public_content":"Contenu public",
+	"Show_replies":"Afficher les réponses",
+	"my_profile":"Mon Profil",
+	"view_all":"{view_counter} voir la réponse",
+	"hide_all":"Masquer les réponses",
+	"selected":"Choisi",
+	"login_t":"S'identifier",
+	"welcome":"Bienvenue",
+	"step":"Étape",
+	"inbox":"Boîte de réception",
+	"ecosystem":"Écosystème",
+	"sent":"Envoyé",
+	"draft":"Brouillon",
+	"archive":"Archiver",
+	"trash":"Corbeille",
+	"settings":"Paramètres",
+	"create":"Créer un mail",
+	"language":"La langue",
+	"uncomplete_alert":"Veuillez remplir les questions sans réponse.",
+	"placeholder_subject":"Assujettir",
+	"placeholder_mail":"Votre message",
+	"wait":"S'il vous plaît, attendez!",
+	"empty":"Aucune conversation dans la {folder}.",
+	"send_error":"S'il vous plaît remplir le sujet et le champ du message!",
+	"comments":"Les commentaires ont été désactivés.",
+	"leave_comment":"Connectez-vous pour laisser un commentaire.",
+	"other_settings":"Autres paramètres",
+	"steps":
+		{
+			"step_1": "Âge / Sexe & Lieu",
+			"step_2": "Intérêts & Professions",
+			"step_3": "Détails De La Personnalité",
+			"step_4": "Détails De La Société",
+			"step_5": "Écosystème Mail!"
+		},
+	"buttons":
+		{
+			"linkedin":"Connectez-vous via Linkedin",
+			"start_button":"COMMENCE MAINTENANT",
+			"logout_button":"Déconnexion",
+			"next":"PROCHAIN",
+			"back":"Arrière",
+			"setting":"Paramètres",
+			"create":"+ CRÉER",
+			"inbox":"Boîte de Réception",
+			"ecosystem":"Ecosystème",
+			"sent":"Messages Envoyés",
+			"draft":"Brouillon",
+			"archive":"Archiver",
+			"trash":"Corbeille",
+			"spam":"Spam",
+			"delete":"Supprimer",
+			"arch":"Archiver",
+			"share":"Partager sur Linkedin",
+			"report":"Rapport",
+			"reply":"Répondre",
+			"save":"Enregistrer les Modifications",
+			"send":"ENVOYER",
+			"last_filters":"CHOISIR DES DERNIERS FILTRES",
+			"similar_filters":"FILTRE SIMILAIRE À MOI"
+		},
+	"links":
+		{
+			"terms":"CONDITIONS D'UTILISATION ET ACCORDS DE CONFIDENTIALITÉ",
+			"about":"À propos",
+			"contact":"Contact",
+			"term":"Conditions d'utilisation"
+		},
+	"connect":
+		{
+			"connect_linkedin":"Connecté via Linkedin."
+		},
+	"steps_info":
+		{
+			"info1":"Veuillez remplir ces informations sur vous-même.",
+			"info2":"Cela gardera votre boîte de réception des messages non pertinents.",
+			"info3":"Le courrier de l'écosystème ne vend jamais vos informations personnelles."
+		},
+	"recipient_types":
+		{
+			"job":"Emploi",
+			"gender":"Le genre",
+			"age":"Âge"
+		},
+	"recipient_name":
+		{
+			"engineer":"Ingénieur",
+			"male":"Mâle",
+			"female":"Femelle"
+		},
+	"tooltip":
+		{
+			"undo":"Annuler",
+			"redo":"Refaire",
+			"bold":"Audacieux",
+			"italic":"Incliné",
+			"underline":"Souligner",
+			"strike":"Haut de rayé",
+			"link":"Lien",
+			"image":"Image",
+			"blockquote":"Citation",
+			"code":"Bloc de code",
+			"color":"Couleur du texte",
+			"background":"Couleur de fond",
+			"h1":"Titre 1",
+			"h2":"Titre 2",
+			"h3":"Titre 3",
+			"h4":"Titre 4",
+			"h5":"Titre 5",
+			"h6":"Titre 6",
+			"font":"Police",
+			"size":"Taille",
+			"emoji":"Emoji",
+			"list_order":"Liste numérotée",
+			"list_unorder":"Liste à puces",
+			"indent_m":"Augmenter le retrait",
+			"indent_l":"Diminuer le retrait",
+			"direct":"Direction du texte",
+			"align":"Aligner",
+			"clean":"Supprimer la mise en forme",
+			"script_sub":"Indice",
+			"script_sup":"Exposant",
+			"full":"Plein écran"
+		},
+	"popup":
+		{
+			"h1":"Lorsque vous l'activez, il l'envoie à tous les utilisateurs. S'il est fermé, il ne sera envoyé qu'aux utilisateurs de votre entreprise.",
+			"h2":"Vous activez les réponses lorsque vous les activez. S'il est fermé, les réponses seront désactivées.",
+			"h3":"Spécifie les frais d'envoi du courrier."
+		},
+	"langs":
+		{
+			"english":"Anglais",
+			"turkish":"Turc",
+			"french":"Fraçais",
+			"spanish":"Espanol"
+		}
+}

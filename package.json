@@ -1,0 +1,41 @@
+{
+  "name": "ecosystem-mail",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node ./bin/www",
+    "server": "nodemon ./bin/www",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client \""
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.6.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "express-session": "^1.15.6",
+    "find-or-create": "^1.1.0",
+    "fuse.js": "^3.2.1",
+    "http-errors": "~1.6.2",
+    "jwt-simple": "^0.5.1",
+    "mailgun-js": "^0.20.0",
+    "mongodb": "^3.1.1",
+    "mongoose": "^5.2.6",
+    "mongoose-deep-populate": "^3.1.1",
+    "morgan": "~1.9.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-linkedin": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "pepipost": "^2.5.2",
+    "react-dom": "^16.5.1",
+    "strip-bom": "^3.0.0",
+    "validator": "^10.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}

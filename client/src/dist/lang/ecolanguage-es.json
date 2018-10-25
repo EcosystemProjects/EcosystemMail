@@ -1,0 +1,149 @@
+{
+	"login":"Correo del ecosistema iniciar sesión",
+	"login_text": "Esta es la puerta de entrada para crear conexiones efectivas con personas y organizaciones.",
+	"welcome":"¡Hola!",
+	"welcome_text":"¡Complete su perfil para enviar y recibir correos del ecosistema!",
+	"search":"Buscar",
+	"from":"De",
+	"recipients":"Destinatarios",
+	"replies":"Respuestas",
+	"your_rep":"Escriba su respuesta",
+	"reply_warn":"Otros usuarios pueden ver tu respuesta.",
+	"Public_content":"Contenido público",
+	"Show_replies":"Mostrar respuestas",
+	"my_profile":"Mi perfil",
+	"view_all":"Ver {view_counter} respuestas",
+	"hide_all":"Ocultar respuestas",
+	"selected":"Seleccionado",
+	"login_t":"Iniciar sesión",
+	"welcome":"Bienvenidos",
+	"step":"Escalón",
+	"inbox":"Bandeja de entrada",
+	"ecosystem":"Ecosistema",
+	"sent":"Expedido",
+	"draft":"Borrador",
+	"archive":"Archivo",
+	"trash":"Papelera",
+	"settings":"Configuraciones",
+	"create":"Crear correo",
+	"language":"Idioma",
+	"uncomplete_alert":"Por favor complete preguntas sin respuesta.",
+	"placeholder_subject":"Sujeto",
+	"placeholder_mail":"Tu mensaje",
+	"wait":"¡Por favor espera!",
+	"empty":"No hay conversaciones en la {folder}.",
+	"send_error":"Por favor, rellene el asunto y el campo del mensaje!",
+	"comments":"Los comentarios han sido desactivados.",
+	"leave_comment":"Inicia sesión para dejar un comentario.",
+	"other_settings":"Otras configuraciones",
+	"steps":
+		{
+			"step_1": "Edad / Sexo & Ubicación",
+			"step_2": "Interés & profesiones",
+			"step_3": "Detalles de personalidad",
+			"step_4": "Detalles de la compañía",
+			"step_5": "Correo del ecosistema!"
+		},
+	"buttons":
+		{
+			"linkedin":"Conectar vía Linkedin",
+			"start_button":"EMPEZAR AHORA",
+			"logout_button":"Cerrar sesión",
+			"next":"PRÓXIMO",
+			"back":"Espalda",
+			"setting":"Configuraciones",
+			"create":"+ REDACTAR",
+			"inbox":"Recibidos",
+			"ecosystem":"Ecosistema",
+			"sent":"Enviados",
+			"draft":"Borradores",
+			"archive":"Archivo",
+			"trash":"Papelera",
+			"spam":"Spam",
+			"delete":"Borrar",
+			"arch":"Archivo",
+			"share":"Compartir en Linkedin",
+			"report":"Informe",
+			"reply":"Respuesta",
+			"save":"Guardar Cambios",
+			"send":"ENVIAR",
+			"last_filters":"SELECCIONAR DE LOS ÚLTIMOS FILTROS",
+			"similar_filters":"FILTRO SIMILAR PARA MÍ"
+		},
+	"links":
+		{
+			"terms":"TÉRMINOS DE USO Y ACUERDOS DE PRIVACIDAD",
+			"about":"Acerca de",
+			"contact":"Contacto",
+			"term":"Condiciones"
+		},
+	"connect":
+		{
+			"connect_linkedin":"Conectado vía Linkedin."
+		},
+	"steps_info":
+		{
+			"info1":"Por favor complete esta información acerca de usted.",
+			"info2":"Esto mantendrá su bandeja de entrada de publicaciones irrelevantes.",
+			"info3":"El correo del ecosistema nunca vende su información personal."
+		},
+	"recipient_types":
+		{
+			"job":"Trabajo",
+			"gender":"Género",
+			"age":"Años"
+		},
+	"recipient_name":
+		{
+			"engineer":"Ingeniero",
+			"male":"Masculino",
+			"female":"Hembra"
+		},
+	"tooltip":
+		{
+			"undo":"Deshacer",
+			"redo":"Rehacer",
+			"bold":"Negrita",
+			"italic":"Cursiva",
+			"underline":"Subrayado",
+			"strike":"Superior rayas",
+			"link":"Enlazar",
+			"image":"Imagen",
+			"blockquote":"Cita",
+			"code":"Bloque de código",
+			"color":"Color de texto",
+			"background":"Color de fondo",
+			"h1":"Título 1",
+			"h2":"Título 2",
+			"h3":"Título 3",
+			"h4":"Título 4",
+			"h5":"Título 5",
+			"h6":"Título 6",
+			"font":"Fuente",
+			"size":"Tamaño",
+			"emoji":"Emoji",
+			"list_order":"Lista ordenada",
+			"list_unorder":"Lista desordenada",
+			"indent_m":"Aumentar sangría",
+			"indent_l":"Reducir sangría",
+			"direct":"Dirección del texto",
+			"align":"Alineación",
+			"clean":"Eliminar formato",
+			"script_sub":"Subíndice",
+			"script_sup":"Sobrescrito",
+			"full":"Pantalla completa"
+		},
+	"popup":
+		{
+			"h1":"Cuando lo habilita, lo envía a todos los usuarios. Si está cerrado, solo lo enviará a los usuarios de su empresa.",
+			"h2":"Habilita las respuestas cuando las habilita. Si está cerrada, deshabilitará las respuestas.",
+			"h3":"Especifica la tarifa para enviar el correo."
+		},
+	"langs":
+		{
+			"english":"Inglés",
+			"turkish":"Turco",
+			"french":"Francés",
+			"spanish":"Español"
+		}
+}

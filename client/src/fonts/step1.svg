@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="580"
+   height="400"
+   version="1.1"
+   id="svg39"
+   sodipodi:docname="step1.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata43">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview41"
+     showgrid="false"
+     inkscape:zoom="1.18"
+     inkscape:cx="313.97074"
+     inkscape:cy="273.70932"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg39" />
+  <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+  <defs
+     id="defs14">
+    <filter
+       id="svg_1_blur"
+       x="-0.0312525"
+       width="1.062505"
+       y="-0.19842857"
+       height="1.3968571">
+      <feGaussianBlur
+         stdDeviation="5.20875"
+         id="feGaussianBlur2" />
+    </filter>
+    <filter
+       id="svg_7_blur"
+       x="-0.0312525"
+       width="1.062505"
+       y="-0.19842857"
+       height="1.3968571">
+      <feGaussianBlur
+         stdDeviation="5.20875"
+         id="feGaussianBlur5" />
+    </filter>
+    <filter
+       id="svg_8_blur"
+       x="-0.0312525"
+       width="1.062505"
+       y="-0.19842857"
+       height="1.3968571">
+      <feGaussianBlur
+         stdDeviation="5.20875"
+         id="feGaussianBlur8" />
+    </filter>
+    <filter
+       id="svg_12_blur">
+      <feGaussianBlur
+         stdDeviation="0"
+         in="SourceGraphic"
+         id="feGaussianBlur11" />
+    </filter>
+  </defs>
+  <g
+     id="g21">
+    <title
+       id="title16">background</title>
+    <rect
+       x="-1"
+       y="-1"
+       width="582"
+       height="402"
+       id="canvas_background"
+       fill="none" />
+    <g
+       id="canvasGrid"
+       display="none">
+      <rect
+         id="svg_2"
+         width="100%"
+         height="100%"
+         x="0"
+         y="0"
+         stroke-width="0"
+         fill="url(#gridpattern)" />
+    </g>
+  </g>
+  <g
+     id="g37">
+    <title
+       id="title23">Layer 1</title>
+    <rect
+       fill="#fff"
+       stroke="#000"
+       stroke-width="1.5"
+       x="96"
+       y="77"
+       width="400"
+       height="63"
+       id="svg_1"
+       filter="url(#svg_1_blur)"
+       rx="12"
+       style="stroke-width:10.5;stroke-miterlimit:4;stroke-dasharray:none;stroke:#000000;stroke-opacity:0.41121495;stroke-linejoin:round;filter:url(#svg_1_blur)" />
+    <rect
+       fill="#fff"
+       stroke-width="1.5"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x="96"
+       y="142"
+       width="400"
+       height="63"
+       id="svg_7"
+       stroke="#000"
+       rx="12"
+       filter="url(#svg_7_blur)"
+       style="stroke-width:10.5;stroke-miterlimit:4;stroke-dasharray:none;stroke:#000000;stroke-opacity:0.41121495;filter:url(#svg_7_blur)" />
+    <rect
+       fill="#fff"
+       stroke="#000"
+       stroke-width="1.5"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x="96"
+       y="206"
+       width="400"
+       height="63"
+       id="svg_8"
+       rx="12"
+       filter="url(#svg_8_blur)"
+       style="stroke-width:10.5;stroke-miterlimit:4;stroke-dasharray:none;stroke:#000000;stroke-opacity:0.40186915;filter:url(#svg_8_blur)" />
+    <rect
+       fill="#fff"
+       stroke="#187adf"
+       stroke-width="3.5"
+       fill-opacity="null"
+       x="96"
+       y="270"
+       width="400"
+       height="63"
+       id="svg_9"
+       rx="12"
+       style="stroke-width:13.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round" />
+    <rect
+       fill="#fff"
+       stroke="#000"
+       stroke-width="1.5"
+       stroke-opacity="null"
+       fill-opacity="null"
+       x="223.5"
+       y="163.5"
+       width="0"
+       height="3"
+       id="svg_10" />
+    <path
+       d="m 372.89854,188.15267 v -27.66416 h -0.0101 c -0.0142,-34.14334 -36.49976,-61.807508 -81.51213,-61.807508 -45.01235,0 -81.51771,27.679008 -81.51771,61.822328 v 0 27.64934 H 180.37919 V 306.91215 H 402.3685 V 188.15267 Z m -137.2858,-27.64934 c 0,0 0,0 0,0 0,-23.33026 25.01714,-42.30464 55.76357,-42.30464 30.76606,0 55.78316,18.97438 55.78316,42.28982 0,0 0,0 0,0 v 27.66416 H 235.61274 Z"
+       id="svg_11"
+       inkscape:connector-curvature="0"
+       style="fill:#187adf;stroke:#ffffff;stroke-width:9.01823235" />
+    <line
+       x1="221.65321"
+       y1="192.83702"
+       x2="186.6532"
+       y2="230.29855"
+       id="svg_12"
+       stroke-linejoin="null"
+       stroke-linecap="null"
+       style="fill:none;stroke:#ffffff;stroke-width:8.12661457;stroke-miterlimit:4;stroke-dasharray:none;filter:url(#svg_12_blur)"
+       transform="matrix(2.1010086,0,0,1.6809558,-218.52184,-139.61917)" />
+    <line
+       x1="180.38953"
+       y1="188.15364"
+       x2="406.36737"
+       y2="187.16609"
+       id="svg_13"
+       stroke-linejoin="null"
+       stroke-linecap="null"
+       style="fill:none;stroke:#ffffff;stroke-width:10.95932579" />
+    <line
+       fill-opacity="null"
+       x1="178.70514"
+       y1="287.32349"
+       x2="316.29596"
+       y2="178.4131"
+       id="svg_15"
+       stroke-linejoin="null"
+       stroke-linecap="null"
+       style="fill:none;stroke:#ffffff;stroke-width:15.93816757;stroke-miterlimit:4;stroke-dasharray:none" />
+    <line
+       stroke-opacity="null"
+       fill-opacity="null"
+       x1="228.81548"
+       y1="308.93692"
+       x2="372.81006"
+       y2="188.26276"
+       id="svg_16"
+       stroke-linejoin="null"
+       stroke-linecap="null"
+       style="fill:none;stroke:#ffffff;stroke-width:15.073;stroke-miterlimit:4;stroke-dasharray:none" />
+    <line
+       stroke-opacity="null"
+       fill-opacity="null"
+       x1="280.70764"
+       y1="316.35773"
+       x2="403.64313"
+       y2="212.28116"
+       id="svg_17"
+       stroke-linejoin="null"
+       stroke-linecap="null"
+       style="fill:none;stroke:#ffffff;stroke-width:15.683;stroke-miterlimit:4;stroke-dasharray:none" />
+    <line
+       fill-opacity="null"
+       x1="337.89697"
+       y1="308.61829"
+       x2="409.05865"
+       y2="243.46822"
+       id="svg_18"
+       stroke-linejoin="null"
+       stroke-linecap="null"
+       style="fill:none;stroke:#ffffff;stroke-width:15.056;stroke-miterlimit:4;stroke-dasharray:none" />
+  </g>
+</svg>

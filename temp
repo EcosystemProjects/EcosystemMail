@@ -1,0 +1,185 @@
+User.findOne({
+    linkedinId: profile.id
+}, (err, user)=>{
+    if(err){
+        return done(err);
+    }
+    //No user was found, Create new
+    if(!user){
+        user = new User({
+            linkedinId: profile.id,
+            name: profile.displayName,
+            email: profile.emails
+        });
+        user.save((err)=>{
+            if(err){
+                console.log(err);
+                return done(err, user);
+            }
+        });
+    } else{
+        //found user. return
+        return done(err, user);
+    }
+});
+
+
+redirect user.id route
+
+// Serialize
+passport.serializeUser((user, done)=> {
+  done(null, user.id);
+});
+
+// Deserialize
+passport.deserializeUser((id, done)=>{
+    User.findById(id).then((user)=>{
+        done(null, user);
+    });
+});
+
+
+Form routes
+// Form1
+router.get('/login/create-user/:user/form-1', (req, res)=>{
+    const data = {
+        title: 'Age & Gender, Location Form'
+        user: req.user
+    }
+    res.render('form1', {user: req.user});
+});
+
+router.post('/login/create-user/:user._id/form-1', (req, res)=>{
+    // Get Params & Into Database
+    res.redirect('/auth/login/create-user/:user._id/form-2');
+});
+
+// Form2
+router.get('/login/create-user/:user._id/form-2', (req, res)=>{
+    res.render('form2');
+});
+
+router.post('/login/create-user/:user._id/form-2', (req, res)=>{
+    // Get Params & Into Database
+    // Redirect Form3
+    res.redirect('/auth/login/create-user/:user._id/form-3');
+});
+
+// Form3
+router.get('/login/create-user/:user._id/form-3', (req, res)=>{
+    res.render('form3');
+});
+
+router.post('/login/create-user/:user._id/form-3', (req, res)=>{
+    // Get Params & Into Database
+    // Redirect Form4
+    res.redirect('/auth/login/create-user/:user._id/form-4');
+});
+
+// Form4
+router.get('/login/create-user/:user._id/form-4', (req, res)=>{
+    res.render('form4');
+});
+
+router.post('/login/create-user/:user._id/form-4', (req, res)=>{
+    // Get Params & Into Database
+    //
+    // isComplated = True
+    // Redirect Index
+    res.redirect('/');
+});
+
+Form Kontrol
+if (!User.isComplated) {
+    console.log(req.user);
+    const user = req.user._id
+    res.redirect('/auth/login/create-user/:user');
+} else {
+    console.log(req.user);
+    res.redirect('/');
+}
+
+typeof profile._json.pictureUrl.values === 'undefined'
+
+Question.find({},(err,question)=>{
+{
+  for(i=0;i<question.length;i++)
+  {
+    arranswer[i]=req.body[question[i].question.tr]
+    console.log(req.body[question[i]]);
+    // newPost.targetReceivers.push(req.body[question[i].question.tr]);
+    // Post.update({_id: newPost._id},{
+    // 	$push: {
+    // 		questionId: ,
+    // 		selectedAnswer: req.body[question[i].question.tr]
+    // 	}
+    // })
+
+  }
+Answer.find({answer:{$in:arranswer}},(err,answer)=>{
+      for(i=0;i<answer.length;i++)
+      {
+        User.find({_id:answer[i].userId},(err,user)=>{
+        console.log(user);
+      })
+      }
+    })
+}
+
+
+
+// let questionAndAnswers = []
+// for (var i = 0; i < data.length; i++) {
+// 	if(data[i][0] != "body" && data[i][0] != "title" && data[i][0] != "isRepliable" && data[i][0] != "isPrivate"){
+// 		let question 	= data[i][0];
+// 		let answer 		= data[i][1];
+// 		let questionAndAnswerArray = [question, answer];
+// 		questionAndAnswers.push(questionAndAnswerArray);
+// 		}
+// 	}
+// 	let usersArray = []
+// 	questionAndAnswers.forEach((data)=>{
+// 		User.find({
+// 	    $and : [{"answeredQuestions.answer": data[1]}]
+// 	  }, (err, user) => {
+// 	    if (err) console.log(err);
+// 	  })
+// 	}, (user) => {
+// 		res.redirect('/');
+//
+// 	})
+
+
+
+
+let update = {
+  // "$inc": {"inbox.$.itemCount": 1},
+  "$push" : {
+    "inbox.$.mail" : createdPost._id,
+    "inbox" :{
+      "$set":
+        {
+          "inbox.$.isDeleted"		: false,
+          "inbox.$.isArchived"	: false,
+          "inbox.$.isDraft"			: false,
+          "inbox.$.isSpam"			: false,
+          "inbox.$.isDeleted" 	: false,
+          "inbox.$.isReaded" 		: false,
+        }
+      }
+    }
+  };
+
+  for (var i = 0; i < data.length; i++) {
+    let questionAndAnswers = {'question': data[i][0], 'answer': data[i][1]}
+    User.findOneAndUpdate({'_id': req.user._id},
+    {$push: {answeredQuestions: questionAndAnswers}
+    }, (err, updatedUser) => {
+      if(err){
+        console.log(err);
+      } else {
+        console.log(updatedUser);
+        res.redirect('/profile');
+      }
+    })
+  }

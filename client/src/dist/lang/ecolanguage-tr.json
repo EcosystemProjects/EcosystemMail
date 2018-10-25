@@ -1,0 +1,147 @@
+{
+	"login":"Ekosistem Mail Girişi",
+	"login_text": "Ekosistem mail insanlarla ve organizasyonlarla etkili bir bağlantı kurma servisidir.",
+	"welcome":"Hoşgeldin!",
+	"welcome_text":"Profil bilgilerini tamamla ve ekosistem maillerini almaya başla!",
+	"search":"Ara",
+	"from":"Gönderen",
+	"recipients":"Alıcılar",
+	"replies":"Yanıtlar",
+	"your_rep":"Cevabını yaz",
+	"reply_warn":"Diğer kullanıcılar cevaplarınızı görebilir.",
+	"Public_content":"Genel içerik",
+	"Show_replies":"Cevapları göster",
+	"my_profile":"Profilim",
+	"view_all":"{view_counter} yanıtı görüntüle",
+	"hide_all":"Yanıtları gizle",
+	"selected":"Seçildi",
+	"login_t":"Giriş",
+	"welcome":"Hoşgeldiniz",
+	"step":"Adım",
+	"inbox":"Gelen Kutusu",
+	"ecosystem":"Ekosistem",
+	"sent":"Gönderilenler",
+	"draft":"Taslaklar",
+	"archive":"Arşiv",
+	"trash":"Çöp Kutusu",
+	"settings":"Ayarlar",
+	"create":"Mail oluştur",
+	"language":"Gösterim dili",
+	"uncomplete_alert":"Lütfen cevaplanmamış soruları tamamlayın.",
+	"placeholder_subject":"Konu",
+	"placeholder_mail":"Mesajınız",
+	"wait":"Lütfen bekleyiniz!",
+	"empty":"{folder} içerisinde ileti dizisi yok.",
+	"send_error":"Lütfen konu ve mesaj alanını doldurunuz!",
+	"comments":"Yorumlar devre dışı bırakıldı.",
+	"leave_comment":"Yorum yapabilmek için giriş yap.",
+	"other_settings":"Diğer Ayarlar",
+	"steps":
+		{
+			"step_1": "Yaş/Cinsiyet & Konum",
+			"step_2": "İlgi & Uzmanlık Alanları",
+			"step_3": "Kişisel Detaylar",
+			"step_4": "Şirket Detayları",
+			"step_5": "Ekosistem Mail!"
+		},
+	"buttons":
+		{
+			"linkedin":"Linkedin ile bağlan",
+			"start_button":"ŞİMDİ BAŞLA",
+			"logout_button":"Çıkış",
+			"next":"İLERİ",
+			"back":"Geri",
+			"setting":"Ayarlar",
+			"create":"+ E-POSTA",
+			"inbox":"Gelen Kutusu",
+			"ecosystem":"Ekosistem",
+			"sent":"Gönderilmiş Postalar",
+			"draft":"Taslaklar",
+			"archive":"Arşivlenmiş Postalar",
+			"trash":"Çöp kutusu",
+			"spam":"Spam",
+			"delete":"Sil",
+			"arch":"Arşivle",
+			"share":"Linkedinde Paylaş",
+			"report":"Şikayet et",
+			"reply":"Cevapla",
+			"save":"Değişiklikleri Kaydet",
+			"send":"GÖNDER",
+			"last_filters":"SON FİLTRELERDEN SEÇ",
+			"similar_filters":"BANA UYGUN FİLTRELERİ SEÇ"
+		},
+	"links":
+		{
+			"terms":"KULLANIM ŞARTLARI VE GİZLİLİK SÖZLEŞMESİ",
+			"about":"Hakkında",
+			"contact":"İletişim",
+			"term":"Şartlar"
+		},
+	"connect":
+		{
+			"connect_linkedin":"Linkedin ile bağlandı."
+		},
+	"steps_info":
+		{
+			"info1":"Lütfen bu bilgileri kendiniz hakkında doldurun.",
+			"info2":"Bu, gelen kutunuzu alakasız mesajlardan koruyacak.",
+			"info3":"Ekosistem mail bilgilerini asla paylaşmaz."
+		},
+	"recipient_types":
+		{
+			"job":"Meslek",
+			"gender":"Cinsiyet",
+			"age":"Yaş"
+		},
+	"recipient_name":
+		{
+			"engineer":"Mühendis",
+			"male":"Erkek"
+		},
+	"tooltip":
+		{
+			"undo":"Geri",
+			"redo":"İleri",
+			"bold":"Kalın",
+			"italic":"Eğik",
+			"underline":"Alt çizgili",
+			"strike":"Üst çizgili",
+			"link":"Bağlantı",
+			"image":"Resim",
+			"blockquote":"Alıntı",
+			"code":"Kod bloğu",
+			"color":"Metin rengi",
+			"background":"Arkaplan rengi",
+			"h1":"Başlık 1",
+			"h2":"Başlık 2",
+			"h3":"Başlık 3",
+			"h4":"Başlık 4",
+			"h5":"Başlık 5",
+			"h6":"Başlık 6",
+			"font":"Yazı tipi",
+			"size":"Boyut",
+			"emoji":"Emoji",
+			"list_order":"Numaralı liste",
+			"list_unorder":"Madde imli liste",
+			"indent_m":"Daha fazla girinti",
+			"indent_l":"Daha az girinti",
+			"direct":"Metin yönü",
+			"align":"Hizala",
+			"clean":"Biçimlendirmeyi kaldır",
+			"script_sub":"Alt simge",
+			"script_sup":"Üst simge",
+			"full":"Tam ekran"
+		},
+	"popup":
+		{
+			"h1":"Etkinleştirdiğinizde tüm kullanıcılara gönderir.\nKapalı olduğu takdirde sadece şirketinizdeki kullanıcılara gönderir.",
+			"h2":"Etkinleştirdiğinizde cevaplara izin verirsiniz.\nKapalı olduğu takdirde cevapları devre dışı bırakır.",
+			"h3":"Postayı gönderebilmek için gereken ücreti belirtir."
+		},
+	"langs":
+		{
+			"en-EN":"İngilizce",
+			"en-US":"İngilizce(Amerikan)",
+			"tr-TR":"Türkçe"
+		}
+}

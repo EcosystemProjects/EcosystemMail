@@ -1,0 +1,104 @@
+{
+  "_from": "quill-emoji",
+  "_id": "quill-emoji@0.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-7MLyh34/4CKyayFCZlnvnavNSxQikqLgXLiV0JUeU+LFstWzzKzeNl78juEfggzozWWxzz68EH/5E6H3Ht+krQ==",
+  "_location": "/quill-emoji",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "quill-emoji",
+    "name": "quill-emoji",
+    "escapedName": "quill-emoji",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/quill-emoji/-/quill-emoji-0.1.1.tgz",
+  "_shasum": "ec09a83e6e6c6876eda220e90f27690e2b6deba6",
+  "_spec": "quill-emoji",
+  "_where": "C:\\Users\\furka\\Desktop\\DERS\\JP2019\\client",
+  "author": {
+    "name": "contentco"
+  },
+  "bugs": {
+    "url": "https://github.com/contentco/quill-emoji/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "emoji-data-css": "^1.0.1",
+    "fuse.js": "^3.2.0"
+  },
+  "deprecated": false,
+  "description": "Quill Extension for Emoji Selection",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.3",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
+    "image-webpack-loader": "^4.3.1",
+    "node-sass": "^4.6.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "uglifyjs-webpack-plugin": "^1.2.2",
+    "webpack": "^4.15.0",
+    "webpack-cli": "^2.0.9"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "impliedStrict": true
+      }
+    },
+    "rules": {
+      "eqeqeq": [
+        2,
+        "allow-null"
+      ],
+      "no-unused-vars": [
+        1,
+        {
+          "vars": "local",
+          "args": "none"
+        }
+      ],
+      "no-console": 0
+    },
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  },
+  "homepage": "https://github.com/contentco/quill-emoji#readme",
+  "keywords": [
+    "content",
+    "emoji",
+    "quill",
+    "editor"
+  ],
+  "license": "MIT",
+  "main": "src/quill-emoji.js",
+  "name": "quill-emoji",
+  "peerDependencies": {
+    "quill": "^1.3.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/contentco/quill-emoji.git"
+  },
+  "scripts": {
+    "build": "npm run js-compile && npm run css-compile",
+    "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 --output dist/ src/scss/",
+    "js-compile": "webpack"
+  },
+  "version": "0.1.1"
+}

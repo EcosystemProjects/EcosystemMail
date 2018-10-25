@@ -1,0 +1,148 @@
+{
+	"login":"Ecosystem Mail Login",
+	"login_text": "This is the gateway to create effective connections with people and organizations.",
+	"welcome":"Welcome!",
+	"welcome_text":"Complete your profile to send & receive ecosystem mails!",
+	"search":"Search",
+	"from":"From",
+	"recipients":"Recipients",
+	"replies":"Replies",
+	"your_rep":"Write your reply",
+	"reply_warn":"Other users can see your reply.",
+	"Public_content":"Public content",
+	"Show_replies":"Show replies",
+	"my_profile":"My Profile",
+	"view_all":"View all {view_counter} replies",
+	"hide_all":"Hide replies",
+	"selected":"Selected",
+	"login_t":"Login",
+	"welcome":"Welcome",
+	"step":"Step",
+	"inbox":"Inbox",
+	"ecosystem":"Ecosystem",
+	"sent":"Sent",
+	"draft":"Draft",
+	"archive":"Archive",
+	"trash":"Trash",
+	"settings":"Settings",
+	"create":"Create mail",
+	"language":"Language",
+	"uncomplete_alert":"Please complete unanswered questions.",
+	"placeholder_subject":"Subject",
+	"placeholder_mail":"Your message",
+	"wait":"Please wait!",
+	"empty":"No conversations in {folder}.",
+	"send_error":"Please fill in the subject and message field!",
+	"comments":"Comments have been disabled.",
+	"leave_comment":"Log in to leave a comment.",
+	"other_settings":"Other Settings",
+	"steps":
+		{
+			"step_1": "Age/Gender & Location",
+			"step_2": "Interest & Professions",
+			"step_3": "Personality Details",
+			"step_4": "Company Details",
+			"step_5": "Ecosystem Mail!"
+		},
+	"buttons":
+		{
+			"linkedin":"Connect via Linkedin",
+			"start_button":"START NOW",
+			"logout_button":"Logout",
+			"next":"NEXT",
+			"back":"Back",
+			"setting":"Settings",
+			"create":"+ CREATE",
+			"inbox":"Inbox",
+			"ecosystem":"Ecosystem",
+			"sent":"Sent",
+			"draft":"Draft",
+			"archive":"Archive",
+			"trash":"Trash",
+			"spam":"Spam",
+			"delete":"Delete",
+			"arch":"Archive",
+			"share":"Share on Linkedin",
+			"report":"Report",
+			"reply":"Reply",
+			"save":"Save Changes",
+			"send":"SEND",
+			"last_filters":"SELECT FROM LAST FILTERS",
+			"similar_filters":"FILTER SIMILAR TO ME"
+		},
+	"links":
+		{
+			"terms":"TERMS OF USE AND PRIVACY AGREEMENTS",
+			"about":"About",
+			"contact":"Contact",
+			"term":"Terms"
+		},
+	"connect":
+		{
+			"connect_linkedin":"Connected via Linkedin."
+		},
+	"steps_info":
+		{
+			"info1":"Please fill these information about yourself.",
+			"info2":"This will keep your inbox from irrelevant posts.",
+			"info3":"Ecosystem mail never sell your personal information."
+		},
+	"recipient_types":
+		{
+			"job":"Job",
+			"gender":"Gender",
+			"age":"Age"
+		},
+	"recipient_name":
+		{
+			"engineer":"Engineer",
+			"male":"Male",
+			"female":"Female"
+		},
+	"tooltip":
+		{
+			"undo":"Undo",
+			"redo":"Redo",
+			"bold":"Bold",
+			"italic":"Italic",
+			"underline":"Underline",
+			"strike":"Strike",
+			"link":"Link",
+			"image":"Image",
+			"blockquote":"Quotation",
+			"code":"Code block",
+			"color":"Text color",
+			"background":"Background color",
+			"h1":"Header 1",
+			"h2":"Header 2",
+			"h3":"Header 3",
+			"h4":"Header 4",
+			"h5":"Header 5",
+			"h6":"Header 6",
+			"font":"Font style",
+			"size":"Size",
+			"emoji":"Emoji",
+			"list_order":"Ordered list",
+			"list_unorder":"Unordered list",
+			"indent_m":"More indent",
+			"indent_l":"Less indent",
+			"direct":"Text direction",
+			"align":"Align",
+			"clean":"Remove formatting",
+			"script_sub":"Subscript",
+			"script_sup":"Superscript",
+			"full":"Fullscreen"
+		},
+	"popup":
+		{
+			"h1":"When you enable it sends it to all users.\nIf it is closed, it will only send to the users in your company.",
+			"h2":"You enable the answers when you enable them.\nIf it is closed, it will disable the answers.",
+			"h3":"Specifies the fee to send the mail."
+		},
+	"langs":
+		{
+			"en-EN":"English",
+			"en-US":"English(American)",
+			"tr-TR":"Turkish"
+		}
+}
